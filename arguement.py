@@ -40,7 +40,7 @@ def draw_scatter_diagram(datalist):
 
 
 # 观察k距离的矩阵得到k值
-k = 300
+k = 301
 data, label = get_dataset()
 matrix = get_distance_matrix(data)
 draw_scatter_diagram(matrix[:,k-1])
